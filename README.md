@@ -1,6 +1,6 @@
 # User Authentication in React and Node.js Application
 
-A full-stack, production-grade user authentication and authorization system built for college Node.js laboratory demonstration and practical examination.
+A secure full-stack user authentication and authorization system built for college Node.js laboratory demonstration and practical examination.
 
 ---
 
@@ -11,6 +11,12 @@ This project demonstrates how to implement a secure, stateless user authenticati
 Unlike naive implementations that store sensitive JWT tokens in `localStorage` or `sessionStorage` (exposing them to Cross-Site Scripting [XSS] attacks), this project secures session tokens in **HttpOnly, SameSite, signed cookies**. It also incorporates **bcrypt password hashing** with 10 salt rounds, **Helmet HTTP security headers**, **IP rate limiting**, and **Double-Submit Cookie CSRF protection**.
 
 ---
+
+## Live Demo
+
+🌐 **Live Website:** https://user-authentication-frontend-3lwg.onrender.com
+
+💻 **GitHub Repository:** https://github.com/257r1a66b8/user-authentication-system
 
 ## 2. Problem Statement
 
